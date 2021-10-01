@@ -8,12 +8,12 @@ let package = Package(
     products: [
         .library(
             name: "UITextViewPlaceholder",
-            targets: ["UITextView+Placeholder"]),
+            targets: ["UITextViewPlaceholder"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "UITextView+Placeholder",
+            name: "UITextViewPlaceholder",
             path: "Sources",
             publicHeadersPath: "Sources"),
     ]
